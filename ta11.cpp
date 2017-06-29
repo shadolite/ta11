@@ -5,7 +5,7 @@ using namespace std;
 int main() 
 {
 	//PART I
-	Bag firstBag;
+        Bag<int> firstBag;
 	cout << "---PART I---" << endl;
 	cout << "Count should be 0: " << firstBag.getCount() << endl;
 	cout << "Capacity should be 5: " << firstBag.getCapacity() << endl;
@@ -16,9 +16,9 @@ int main()
 	cout << "Capacity be 5: " << firstBag.getCapacity() << endl;
 	cout << "Item[1] should be 8: " << firstBag.getItem(1) << endl;
 	
-	/*
+	
 	// PART II
-	Bag secondBag;
+	Bag<int> secondBag;
 	cout << "---PART II---" << endl;
 	cout << "Count should be 0: " << secondBag.getCount() << endl;
 	cout << "Capacity be 5: " << secondBag.getCapacity() << endl;
@@ -33,9 +33,8 @@ int main()
 	cout << "Count should be 6: " << secondBag.getCount() << endl;
 	cout << "Capacity be 10: " << secondBag.getCapacity() << endl;
 	cout << "Item[5] should be 6: " << secondBag.getItem(5) << endl;
-	*/
+	
 
-	/*
 	//PART III
 	Bag<char> thirdBag;
 	cout << "---PART III---" << endl;
@@ -52,7 +51,6 @@ int main()
 	cout << "Count should be 6: " << thirdBag.getCount() << endl;
 	cout << "Capacity be 10: " << thirdBag.getCapacity() << endl;
 	cout << "Item[5] should be z: " << thirdBag.getItem(5) << endl;
-	*/
 
 	/*
 	//STRETCH I
