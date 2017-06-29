@@ -11,9 +11,10 @@ private:
    int capacity;
    int size;
    int currentAddIndex;
-   int* data;
+   
 
 public:
+   int* data;
    Bag(){
 
       this->data = new int[5];
@@ -29,7 +30,7 @@ public:
    int getItem(int index){return data[index];}
    void addItem(int item){
       data[currentAddIndex] = item;
-     
+      currentAddIndex += 1;
       size += 1;
    }
 };
